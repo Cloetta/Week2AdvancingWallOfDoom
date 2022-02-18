@@ -8,11 +8,14 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded = false;
     bool facingRight = true;
 
+ 
+
     public Animator animator;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        
     }
 
     void Update()
@@ -35,24 +38,26 @@ public class PlayerMovement : MonoBehaviour
             {
                 facingRight = !facingRight;
                 transform.Rotate(0, 180, 0);
-            }
-
-            Jump();
-
+            }           
         }
-
         else
         {
             animator.SetBool("isWalking", false);
         }
 
+        Jump();
+
+        
     }
 
     void Jump()
     {
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 5f), ForceMode2D.Impulse);
+            animator.SetTrigger("isJumping");
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 6f), ForceMode2D.Impulse);
+
+            
         }
     }
 
@@ -62,6 +67,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.collider.tag == "Ground")
         {
             isGrounded = true;
+            animator.SetBool("isGrounded", true);
         }
     }
 
@@ -70,11 +76,7 @@ public class PlayerMovement : MonoBehaviour
         if(collision.collider.tag == "Ground")
         {
             isGrounded = false;
+            animator.SetBool("isGrounded", false);
         }
     }
-
-
-
-
-
 }
