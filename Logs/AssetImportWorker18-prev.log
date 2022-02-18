@@ -15,7 +15,7 @@ C:/Users/alecl/Documents/GitHub/Week2AdvancingWallOfDoom
 -logFile
 Logs/AssetImportWorker18.log
 -srvPort
-50139
+62211
 Successfully changed project path to: C:/Users/alecl/Documents/GitHub/Week2AdvancingWallOfDoom
 C:/Users/alecl/Documents/GitHub/Week2AdvancingWallOfDoom
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/alecl/Documents/GitHub/Week2AdvancingWallOfDoom
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 815.34 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 541.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path C:/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'C:/2021.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/2021.2.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -71,45 +71,45 @@ Register platform support module: C:/2021.2.3f1/Editor/Data/PlaybackEngines/MacS
 Register platform support module: C:/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/2021.2.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/2021.2.3f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.029112 seconds.
+Registered in 0.017778 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 759.89 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 297.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.983 seconds
+- Completed reload, in  2.021 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3989ms)
-		BeginReloadAssembly (416ms)
+	ReloadAssembly (2022ms)
+		BeginReloadAssembly (216ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (9ms)
-		EndReloadAssembly (3123ms)
-			LoadAssemblies (404ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1446ms)
+			LoadAssemblies (210ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (662ms)
+			SetupTypeCache (375ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (122ms)
-			SetupLoadedEditorAssemblies (1975ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (841ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (94ms)
+				InitializePlatformSupportModulesInManaged (49ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (761ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (881ms)
-				ProcessInitializeOnLoadMethodAttributes (232ms)
+				RefreshPlugins (298ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (132ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.026498 seconds.
+Registered in 0.021528 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\alecl\Documents\GitHub\Week2AdvancingWallOfDoom\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\alecl\Documents\GitHub\Week2AdvancingWallOfDoom\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -118,5 +118,1636 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 586.18 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 441.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.931 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9932ms)
+		BeginReloadAssembly (688ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (8716ms)
+			LoadAssemblies (476ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (859ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (7034ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (442ms)
+				BeforeProcessingInitializeOnLoad (266ms)
+				ProcessInitializeOnLoadAttributes (5961ms)
+				ProcessInitializeOnLoadMethodAttributes (317ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.66 seconds
+Refreshing native plugins compatible for Editor in 15.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.7 MB). Loaded Objects now: 5809.
+Memory consumption went from 213.4 MB to 212.7 MB.
+Total: 15.698700 ms (FindLiveObjects: 1.228600 ms CreateObjectMapping: 0.881000 ms MarkObjects: 13.004400 ms  DeleteObjects: 0.582400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 195180.678609 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_5.asset
+  artifactKey: Guid(657be2b611e325a46aaa16451fb1811d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_5.asset using Guid(657be2b611e325a46aaa16451fb1811d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc276e521ba2b3ec3375e745dfd2ab3') in 6.631712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_20.asset
+  artifactKey: Guid(7439c63f63e9ffd49919b456fc0e7356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_20.asset using Guid(7439c63f63e9ffd49919b456fc0e7356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62abfb5a2e1206636556de2be4a3dd6d') in 0.149455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003463 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_0.asset
+  artifactKey: Guid(a4255eefc11d0024093d5c1da9f7a0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_0.asset using Guid(a4255eefc11d0024093d5c1da9f7a0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62ad5cb9be74b7438459f7c1a5671e9') in 0.176816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045479 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_16.asset
+  artifactKey: Guid(47c793aa26e88a94daab76ea9af8e319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_16.asset using Guid(47c793aa26e88a94daab76ea9af8e319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670e86eab6d3bf81f8802bf710ee9c47') in 0.089215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007728 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_9.asset
+  artifactKey: Guid(77845cd2c5b83ea4bbfafc473525319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_9.asset using Guid(77845cd2c5b83ea4bbfafc473525319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7ae5314334f74333070bd60ae8302a') in 0.136934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_1.asset
+  artifactKey: Guid(a541046c02190bb4eb4259d2b8e37c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_1.asset using Guid(a541046c02190bb4eb4259d2b8e37c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72a7428cbfe9da346dec4bbcac68b90') in 0.151315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_8.asset
+  artifactKey: Guid(d55ee657c1de3f94cb8b882f3d1cf858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_8.asset using Guid(d55ee657c1de3f94cb8b882f3d1cf858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c520c4afb070c4af5663d7bb0b0d56d2') in 0.133048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_2.asset
+  artifactKey: Guid(7b1f8c1c708f32643827225253249735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_2.asset using Guid(7b1f8c1c708f32643827225253249735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1cd90c646d36019429a27f88283342') in 0.067232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_6.asset
+  artifactKey: Guid(01e819eeec7c17744b887f9884e12708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_6.asset using Guid(01e819eeec7c17744b887f9884e12708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0fde6e58eb4c689c8039cd670a76cf') in 0.601670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040668 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_13.asset
+  artifactKey: Guid(39534aaac68020b4197051981e2ce26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_13.asset using Guid(39534aaac68020b4197051981e2ce26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb45cb2ed2f574debd831952e37b4202') in 1.256101 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018157 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\alecl\Documents\GitHub\Week2AdvancingWallOfDoom\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\alecl\Documents\GitHub\Week2AdvancingWallOfDoom\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.012 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6014ms)
+		BeginReloadAssembly (850ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (71ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (327ms)
+		EndReloadAssembly (4662ms)
+			LoadAssemblies (413ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1192ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (2011ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (316ms)
+				ProcessInitializeOnLoadAttributes (1257ms)
+				ProcessInitializeOnLoadMethodAttributes (343ms)
+				AfterProcessingInitializeOnLoad (41ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5813.
+Memory consumption went from 205.3 MB to 204.6 MB.
+Total: 7.319700 ms (FindLiveObjects: 0.672800 ms CreateObjectMapping: 0.635600 ms MarkObjects: 5.561800 ms  DeleteObjects: 0.447600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014155 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\alecl\Documents\GitHub\Week2AdvancingWallOfDoom\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\alecl\Documents\GitHub\Week2AdvancingWallOfDoom\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.716 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2717ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (2280ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (557ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (1216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (760ms)
+				ProcessInitializeOnLoadMethodAttributes (237ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5815.
+Memory consumption went from 205.3 MB to 204.6 MB.
+Total: 52.020200 ms (FindLiveObjects: 13.638400 ms CreateObjectMapping: 5.581300 ms MarkObjects: 32.214900 ms  DeleteObjects: 0.583000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7987.256850 seconds.
+  path: Assets/Tile Palettes/SET1_Mainlev_build_11.asset
+  artifactKey: Guid(08a597d157106a3468fa6bec698bc96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/SET1_Mainlev_build_11.asset using Guid(08a597d157106a3468fa6bec698bc96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c26140c7bf77fd982cf5509ac279ff2') in 0.140142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tile Palettes/SET1_Mainlev_build_12.asset
+  artifactKey: Guid(8392921c85f9fa74cb1fca2d8a532957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/SET1_Mainlev_build_12.asset using Guid(8392921c85f9fa74cb1fca2d8a532957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3190fb60e3afa5605c26db2c656fc318') in 0.100699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tile Palettes/SET1_Mainlev_build_26.asset
+  artifactKey: Guid(22874f9bcfa689548bf28c53c2e2600b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/SET1_Mainlev_build_26.asset using Guid(22874f9bcfa689548bf28c53c2e2600b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f846f20a256635e4f819584db2f3666') in 0.075230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004596 seconds.
+  path: Assets/Tile Palettes/SET1_Mainlev_build_15.asset
+  artifactKey: Guid(f5d28575affd352418c53458678bdf7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/SET1_Mainlev_build_15.asset using Guid(f5d28575affd352418c53458678bdf7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2214b47e7ba6fd7f844a4c52eeca4e4f') in 0.149368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Tile Palettes/SET1_Mainlev_build_13.asset
+  artifactKey: Guid(fd82e4ecce3909445856be9d9e010f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/SET1_Mainlev_build_13.asset using Guid(fd82e4ecce3909445856be9d9e010f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f747ff2d820e626233eca537c45690') in 0.062261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Tile Palettes/SET1_Mainlev_build_25.asset
+  artifactKey: Guid(d87b84417c3b2ab41b7a2182f873888a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/SET1_Mainlev_build_25.asset using Guid(d87b84417c3b2ab41b7a2182f873888a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1933797bdb1a026061d4da57d9564312') in 0.056590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013102 seconds.
+  path: Assets/Tile Palettes/SET1_Mainlev_build_14.asset
+  artifactKey: Guid(a1761427c12d7a84fa15546369e3f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/SET1_Mainlev_build_14.asset using Guid(a1761427c12d7a84fa15546369e3f614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370b40b5788f42ed12ea57afa17fd04c') in 0.053394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tile Palettes/SET1_Mainlev_build_22.asset
+  artifactKey: Guid(f03a6faae3b2b4f43b04921161150ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/SET1_Mainlev_build_22.asset using Guid(f03a6faae3b2b4f43b04921161150ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c341afb3a46aeed08c81e38f8296dbfc') in 0.041447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Tile Palettes/SET1_Mainlev_build_30.asset
+  artifactKey: Guid(79da42cd7682c0d47bf8712396589945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/SET1_Mainlev_build_30.asset using Guid(79da42cd7682c0d47bf8712396589945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a91590921d52f8ca18e326c4d90a79') in 0.098672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tile Palettes/SET1_Mainlev_build_20.asset
+  artifactKey: Guid(b5a231d5e90513742a5e6c5225408756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/SET1_Mainlev_build_20.asset using Guid(b5a231d5e90513742a5e6c5225408756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d55467296151f6d8d28f2a2a78ce060') in 0.044749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tile Palettes/SET1_Mainlev_build_19.asset
+  artifactKey: Guid(9fb88423eb794384bac89f41fa223ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tile Palettes/SET1_Mainlev_build_19.asset using Guid(9fb88423eb794384bac89f41fa223ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7ed833f8f621d293548c82160fcf6c') in 0.058497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.384945 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_22.asset
+  artifactKey: Guid(4beb69578f7db544cbd5be77c0058100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_22.asset using Guid(4beb69578f7db544cbd5be77c0058100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325c6f9864ac2e478b51c74b56e2bf89') in 0.287505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_39.asset
+  artifactKey: Guid(690fd98186daee74b83a1215133d66c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_39.asset using Guid(690fd98186daee74b83a1215133d66c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b56dc9a06d5c4c5c3cc51813df81706') in 0.062962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_23.asset
+  artifactKey: Guid(8addfa3ec50f03545a06b5ae0d806ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_23.asset using Guid(8addfa3ec50f03545a06b5ae0d806ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8950bb53cc67f07942bcccd7925aaf33') in 0.262969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_29.asset
+  artifactKey: Guid(3749f2fc3a665944090777c79d2a8fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_29.asset using Guid(3749f2fc3a665944090777c79d2a8fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120e5efcc0d7ad32aa2990f36c7b25a0') in 0.129740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003680 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_38.asset
+  artifactKey: Guid(210ba4fa07ca0f345ba42bd099a96895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_38.asset using Guid(210ba4fa07ca0f345ba42bd099a96895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e318972bb2bd98ef4d908687bd129726') in 0.089376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_25.asset
+  artifactKey: Guid(31f0d2a352d0eab41b5ca7f253ca6ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_25.asset using Guid(31f0d2a352d0eab41b5ca7f253ca6ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7cde9d982a256a0f6c6c814a57ed0e') in 0.068664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_34.asset
+  artifactKey: Guid(7244bc1adba252046b6681e6a3f18b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_34.asset using Guid(7244bc1adba252046b6681e6a3f18b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a848d9fb685ad4623a23ff7df72673e') in 0.067549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_27.asset
+  artifactKey: Guid(bc6973714c641ea4c9c87925decebb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_27.asset using Guid(bc6973714c641ea4c9c87925decebb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42e3dbe658c35e969ed619ca0d4e3d7') in 0.222108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_36.asset
+  artifactKey: Guid(9373fb9289ce08e458cb18f77d65ce2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_36.asset using Guid(9373fb9289ce08e458cb18f77d65ce2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba004d84b31aa1e5ed025a415b0eac04') in 1.491605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_31.asset
+  artifactKey: Guid(af20f81c1094c2e4d828c3914a9ba89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_31.asset using Guid(af20f81c1094c2e4d828c3914a9ba89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5fda4c0740482b267f3101db02f314') in 0.163692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.300677 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_0.asset
+  artifactKey: Guid(a4255eefc11d0024093d5c1da9f7a0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_0.asset using Guid(a4255eefc11d0024093d5c1da9f7a0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a78b3d894cd49a848d8fc78c0274ec') in 0.061676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_15.asset
+  artifactKey: Guid(748abcdd7538e674aa90bf0464e26b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_15.asset using Guid(748abcdd7538e674aa90bf0464e26b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1046095e95bf2696642005afefe66f4') in 0.071554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_5.asset
+  artifactKey: Guid(657be2b611e325a46aaa16451fb1811d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_5.asset using Guid(657be2b611e325a46aaa16451fb1811d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be20be1fa7cc1fecaa50614bc7ca0877') in 0.104379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_10.asset
+  artifactKey: Guid(1cb177d0d90db764b89be9bb23d83cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_10.asset using Guid(1cb177d0d90db764b89be9bb23d83cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e15e1d0f2f3fcf395e55cbcc98371c5') in 0.062650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_20.asset
+  artifactKey: Guid(7439c63f63e9ffd49919b456fc0e7356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_20.asset using Guid(7439c63f63e9ffd49919b456fc0e7356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdb15d2c576b24ecc20c5f4474e11f0') in 0.118654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_18.asset
+  artifactKey: Guid(121ae0be1489e354483ce4776d3a410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_18.asset using Guid(121ae0be1489e354483ce4776d3a410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4a1432f831a12d994d847b901a1fe4') in 0.078824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_3.asset
+  artifactKey: Guid(1e53fa041954c9341ad989e5f8811caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_3.asset using Guid(1e53fa041954c9341ad989e5f8811caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de93770e156a6619e1ef69dfe1ea32a') in 0.070113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_11.asset
+  artifactKey: Guid(35f32aabaa3db194ead884febfeeefd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_11.asset using Guid(35f32aabaa3db194ead884febfeeefd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f18a6fd58634bee77a9d06bb48137b') in 0.106814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_16.asset
+  artifactKey: Guid(47c793aa26e88a94daab76ea9af8e319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_16.asset using Guid(47c793aa26e88a94daab76ea9af8e319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf67e138eecc6a36152126d22995d569') in 0.088607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_7.asset
+  artifactKey: Guid(9a3d3a84627abf449948ed368dfb5bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_7.asset using Guid(9a3d3a84627abf449948ed368dfb5bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b122b35a64d906b7ca67b40ec75c4e7') in 0.054926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_9.asset
+  artifactKey: Guid(77845cd2c5b83ea4bbfafc473525319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_9.asset using Guid(77845cd2c5b83ea4bbfafc473525319a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9004eb0712fa65c7cfcb974f8c6edd25') in 0.069135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_14.asset
+  artifactKey: Guid(de20e8d5a88ea624cb083392d6175c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_14.asset using Guid(de20e8d5a88ea624cb083392d6175c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e1e1f3170ce9cb0afa508bdfecca68') in 0.044593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_1.asset
+  artifactKey: Guid(a541046c02190bb4eb4259d2b8e37c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_1.asset using Guid(a541046c02190bb4eb4259d2b8e37c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb010e9f328dee9a1cf158d9e92f4a9') in 0.043726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_12.asset
+  artifactKey: Guid(f61693b9c543a7a4195c8ee22e05408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_12.asset using Guid(f61693b9c543a7a4195c8ee22e05408a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05399ca7ebfad20f2aa127d58d2e23a3') in 0.045932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_8.asset
+  artifactKey: Guid(d55ee657c1de3f94cb8b882f3d1cf858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_8.asset using Guid(d55ee657c1de3f94cb8b882f3d1cf858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8198cb053c6540e104f7205b9b8584ce') in 0.051773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_4.asset
+  artifactKey: Guid(ab4a9bba3d4d8d448866fa76a7b055f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_4.asset using Guid(ab4a9bba3d4d8d448866fa76a7b055f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1765a9e3fa659f95d1e68ab231349ef2') in 0.059928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_2.asset
+  artifactKey: Guid(7b1f8c1c708f32643827225253249735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_2.asset using Guid(7b1f8c1c708f32643827225253249735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a4eece0038f676023d96c08c0c6cfd') in 0.062428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_19.asset
+  artifactKey: Guid(cd591ad4b1446554592285e4d10c2e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_19.asset using Guid(cd591ad4b1446554592285e4d10c2e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5463b34e2a192739dc25f7670ac41179') in 0.044348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_6.asset
+  artifactKey: Guid(01e819eeec7c17744b887f9884e12708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_6.asset using Guid(01e819eeec7c17744b887f9884e12708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c783d49cdd51a149a2bc11afeed6a6e1') in 0.072684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_17.asset
+  artifactKey: Guid(67e898349b61e6344be2e4a0a00a7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_17.asset using Guid(67e898349b61e6344be2e4a0a00a7a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbad36988f1baf63449b55c64c15cfd') in 0.077183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_13.asset
+  artifactKey: Guid(39534aaac68020b4197051981e2ce26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_13.asset using Guid(39534aaac68020b4197051981e2ce26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b75cad2e646f5bd915ed9330e76de8c') in 0.048931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3245.758907 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_22.asset
+  artifactKey: Guid(4beb69578f7db544cbd5be77c0058100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_22.asset using Guid(4beb69578f7db544cbd5be77c0058100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae1315d1f8d581d158cf724bf4262b1') in 0.183387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_71.asset
+  artifactKey: Guid(08646e886db12ac41b8352cb05d22613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_71.asset using Guid(08646e886db12ac41b8352cb05d22613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fabc14f0d8cf9ffbe47ae1c947e882a') in 0.246327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_201.asset
+  artifactKey: Guid(c50292ff76c2d724ab826315bafa1caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_201.asset using Guid(c50292ff76c2d724ab826315bafa1caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d63e9e9079f89c5b064300e3b4a802f') in 0.153000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_204.asset
+  artifactKey: Guid(bfe1fadcb6d2a8549a6b7985d0f0895f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_204.asset using Guid(bfe1fadcb6d2a8549a6b7985d0f0895f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a9d8e33c8ef96a12cdc480a36a0c35') in 0.211633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_190.asset
+  artifactKey: Guid(85ac7b7610b9ddf47943b02f16395a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_190.asset using Guid(85ac7b7610b9ddf47943b02f16395a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ac37cd0aa0d32a544e75feb9e70fdc') in 0.082597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_133.asset
+  artifactKey: Guid(ef8127e9d53644d4d96f1bb7503cc6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_133.asset using Guid(ef8127e9d53644d4d96f1bb7503cc6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c82e2795c3fbafa797fd2d15f78afa') in 0.059044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_267.asset
+  artifactKey: Guid(b0117f6a04c07754fb2e71c8a5822e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_267.asset using Guid(b0117f6a04c07754fb2e71c8a5822e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0786cded5d1a040d3297477c270d4800') in 0.191919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_172.asset
+  artifactKey: Guid(139c3c5b64ec31841a5c94574318c574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_172.asset using Guid(139c3c5b64ec31841a5c94574318c574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1c1e222f44235a4fb930df2455841a') in 0.045464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_165.asset
+  artifactKey: Guid(c779b462accd43149ade3970cdc8db83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_165.asset using Guid(c779b462accd43149ade3970cdc8db83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733d65ef98978442599e5dd714c5a9bb') in 0.146146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004938 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_77.asset
+  artifactKey: Guid(2dcdeb20ce1f68743992430006fe1ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_77.asset using Guid(2dcdeb20ce1f68743992430006fe1ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f4e1a4a203bd4441009d44a9a9b92c') in 0.074478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_54.asset
+  artifactKey: Guid(5e88ba6c621998d41b41be5b45d16d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_54.asset using Guid(5e88ba6c621998d41b41be5b45d16d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42f16e58c28c5ca6d058bebd5e03561') in 0.088250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_176.asset
+  artifactKey: Guid(c07041c075ea4634398a50445d37e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_176.asset using Guid(c07041c075ea4634398a50445d37e460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cf4c101dd25ddb84b1be501d402003') in 0.051650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_207.asset
+  artifactKey: Guid(3bb4fb2ac27057f43947358b10e3abd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_207.asset using Guid(3bb4fb2ac27057f43947358b10e3abd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c69ec5f3ef83a7de79c5a7be74d2e3') in 0.151454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_188.asset
+  artifactKey: Guid(9499d9ddf8e502d488dd84b360111f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_188.asset using Guid(9499d9ddf8e502d488dd84b360111f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c0168770e22ea5088fdec56dd2ca52') in 0.277178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_167.asset
+  artifactKey: Guid(2cf924ae31a540d44beeb224d8d3881d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_167.asset using Guid(2cf924ae31a540d44beeb224d8d3881d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fba65565c098314e1550234d82bcf1') in 0.056874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_154.asset
+  artifactKey: Guid(fe2773276beae4b4ea8e73461ad1bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_154.asset using Guid(fe2773276beae4b4ea8e73461ad1bf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40dc3ad2f52ad197f55492f43ea4be4') in 0.100792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_93.asset
+  artifactKey: Guid(98d26cebabc95814a982e2930b21d79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_93.asset using Guid(98d26cebabc95814a982e2930b21d79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663bd7a336c9fb7e994d232efbd9a1b1') in 0.041652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_203.asset
+  artifactKey: Guid(9f953048360e71a4388642488d19ccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_203.asset using Guid(9f953048360e71a4388642488d19ccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec396224c45be80aae51281d57ee9c61') in 0.129799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_159.asset
+  artifactKey: Guid(4b8e9b54f6b56354cb037cee2467e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_159.asset using Guid(4b8e9b54f6b56354cb037cee2467e957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79fc8ee7237f21ca2a7b4446f3dd67d') in 0.149100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_83.asset
+  artifactKey: Guid(d31bcd26b2511114f8ae519c4f669a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_83.asset using Guid(d31bcd26b2511114f8ae519c4f669a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f6284822d9b0fc29471c09aa5e00e8') in 0.129398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_90.asset
+  artifactKey: Guid(c7f9032868a27e64d981760ee1e6b981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_90.asset using Guid(c7f9032868a27e64d981760ee1e6b981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862173c9f7f3dfaa7815f5028ba75961') in 0.060368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_195.asset
+  artifactKey: Guid(5bdd23b55d1bd0b48ba2466941c8e6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_195.asset using Guid(5bdd23b55d1bd0b48ba2466941c8e6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0f809e975cc0022413ba3c15d23575') in 0.041495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_25.asset
+  artifactKey: Guid(31f0d2a352d0eab41b5ca7f253ca6ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_25.asset using Guid(31f0d2a352d0eab41b5ca7f253ca6ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ac487a649d158b1dcbbc52d77adccc') in 0.023022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_92.asset
+  artifactKey: Guid(92301837f601c914cb37c08a73275efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_92.asset using Guid(92301837f601c914cb37c08a73275efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc91bb085101689e3cc34d82283c7e7') in 0.094520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_205.asset
+  artifactKey: Guid(7a8aec94c8a88154eb176f108bb9f85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_205.asset using Guid(7a8aec94c8a88154eb176f108bb9f85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9297dd72854c1c1a35a9af9630a8fa21') in 0.057760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_186.asset
+  artifactKey: Guid(a0674a399012c414da4b0fc852b977e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_186.asset using Guid(a0674a399012c414da4b0fc852b977e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059cf27505ed37b27750a574202accd6') in 1.008914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_100.asset
+  artifactKey: Guid(06bd89a6d9152a247ba0e1ca426bfe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_100.asset using Guid(06bd89a6d9152a247ba0e1ca426bfe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5bf05d67236729fc542b3573247178') in 1.601366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_129.asset
+  artifactKey: Guid(80214d62271cb9041b249f448843e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_129.asset using Guid(80214d62271cb9041b249f448843e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ce693cceb344f5593c1f04a72bc2d4') in 1.242297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_189.asset
+  artifactKey: Guid(2e506c9cfa891104a827177329f8d67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_189.asset using Guid(2e506c9cfa891104a827177329f8d67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fac692a9f97cb0cec3636da421f9ce9') in 0.590533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_242.asset
+  artifactKey: Guid(245e3364e0af1964fbe6c841c82dac55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_242.asset using Guid(245e3364e0af1964fbe6c841c82dac55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9dcc9b2183ab9bf6582997cba552a9') in 0.220652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_153.asset
+  artifactKey: Guid(d1bfd0e780a39764892b85ae73036a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_153.asset using Guid(d1bfd0e780a39764892b85ae73036a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb016cf338a953347e5f268878fe43e0') in 0.459514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_57.asset
+  artifactKey: Guid(3df9442c21940c04bad02a65c4bfeb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_57.asset using Guid(3df9442c21940c04bad02a65c4bfeb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a2fa95f3a81022548036a6481b828e') in 0.856372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_259.asset
+  artifactKey: Guid(1cf5bd4db0ae32e49a2ee24f50eb6254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_259.asset using Guid(1cf5bd4db0ae32e49a2ee24f50eb6254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd64fdd67f013862000b822a67f0769') in 0.203352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_28.asset
+  artifactKey: Guid(f71d50cdcbf2ed246bf6cb1db41793d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_28.asset using Guid(f71d50cdcbf2ed246bf6cb1db41793d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49657ceabcecbdbe91919d2ebffcb5a') in 0.040170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_170.asset
+  artifactKey: Guid(ba49506551830a5428de71fc6fe667b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_170.asset using Guid(ba49506551830a5428de71fc6fe667b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb7a158431d1b7e330916380f305a40') in 0.068806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_108.asset
+  artifactKey: Guid(c64dc04ac1a57214dab62dfa6a2a39bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_108.asset using Guid(c64dc04ac1a57214dab62dfa6a2a39bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f379cf1152babcda450163e52f1cc53') in 0.100331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_183.asset
+  artifactKey: Guid(f8c392e753742684b989cafe11a44fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_183.asset using Guid(f8c392e753742684b989cafe11a44fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c4f92fda0b50ef921440fc64764166') in 0.081779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_187.asset
+  artifactKey: Guid(82d7521e728658849b413f4f694ae86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_187.asset using Guid(82d7521e728658849b413f4f694ae86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b4ae23ec37b427343db25901d6fe05') in 0.199036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_82.asset
+  artifactKey: Guid(f9ee7763d7d441f42a14c305573e46c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_82.asset using Guid(f9ee7763d7d441f42a14c305573e46c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53722288ce7069ffee8e716fa1ef6c36') in 1.005261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_255.asset
+  artifactKey: Guid(19e5fdc40b686dc4583532b91d88066e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_255.asset using Guid(19e5fdc40b686dc4583532b91d88066e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6b4f3e20d2f4e67cbb9b9f865d33f0') in 0.057379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_66.asset
+  artifactKey: Guid(48bf1875a1afacf46acf73fffef76e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_66.asset using Guid(48bf1875a1afacf46acf73fffef76e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fd4498878bb6d13aec9f1d5aad114b') in 0.067428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_101.asset
+  artifactKey: Guid(f53fad334ed5cbd468f3316986bfc8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_101.asset using Guid(f53fad334ed5cbd468f3316986bfc8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6114a19d8459c8676e4c749f69572cb4') in 0.039365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_265.asset
+  artifactKey: Guid(f2eda73f1f3a6ae4eb2f6760600a5af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_265.asset using Guid(f2eda73f1f3a6ae4eb2f6760600a5af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b2140c77a51cf2969bdbdd14435438') in 0.583817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_29.asset
+  artifactKey: Guid(3749f2fc3a665944090777c79d2a8fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_29.asset using Guid(3749f2fc3a665944090777c79d2a8fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24dea7c44d6c9be1d7bda0adec2cfe4d') in 0.019551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_155.asset
+  artifactKey: Guid(46af6d767d6fa2b46b6cf6de32cb4515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_155.asset using Guid(46af6d767d6fa2b46b6cf6de32cb4515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfc6ac705d15169819a43bd2a45eac5') in 0.058293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_138.asset
+  artifactKey: Guid(72e5bca33872a6d4787c65b82d9be770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_138.asset using Guid(72e5bca33872a6d4787c65b82d9be770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d8331b65c4e8c2038c8eae306cb6a4') in 0.188605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_264.asset
+  artifactKey: Guid(d2ebc07ee8681e64c8b1c2d524269c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_264.asset using Guid(d2ebc07ee8681e64c8b1c2d524269c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16138bade75d51d93a8299b4e5f47f6c') in 0.318895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_197.asset
+  artifactKey: Guid(ba0b74bb9a2bea74096789d6bb05d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_197.asset using Guid(ba0b74bb9a2bea74096789d6bb05d2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dea5baacd099f8c6392977ae05b9d0a') in 1.162163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_147.asset
+  artifactKey: Guid(afe37a2d60327ab4181f34a924138170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_147.asset using Guid(afe37a2d60327ab4181f34a924138170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3033824d5f66a4fed4518fee7e52f8ff') in 0.509732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_194.asset
+  artifactKey: Guid(ef143887611f9574f97e44703422f9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_194.asset using Guid(ef143887611f9574f97e44703422f9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f26deafcd70f7f8066839e0a3abddc') in 2.585504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_104.asset
+  artifactKey: Guid(29c6539413191b64eb79ada48b2862a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_104.asset using Guid(29c6539413191b64eb79ada48b2862a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa1004a88e91c299351fa64bee78bd2') in 8.403734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.510690 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_137.asset
+  artifactKey: Guid(c2f897db90bc1244994969761fd30c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_137.asset using Guid(c2f897db90bc1244994969761fd30c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48b2c8964997bc5c2fcba2162309060') in 4.594889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_206.asset
+  artifactKey: Guid(41cee8084fa34b34399d474ea1a3e319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_206.asset using Guid(41cee8084fa34b34399d474ea1a3e319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ddb0975f3971c1e54e27ad7089a7fd') in 0.489737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_148.asset
+  artifactKey: Guid(b686be44e6a7970428f9ed5070a76149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_148.asset using Guid(b686be44e6a7970428f9ed5070a76149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368050dd81b3fa084c9d907b97836dcd') in 0.160811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_209.asset
+  artifactKey: Guid(e538831624174a54894c1cd3ca060b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_209.asset using Guid(e538831624174a54894c1cd3ca060b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce82f57fa53817f41fb4a0631da48f9') in 5.452800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_97.asset
+  artifactKey: Guid(e41a56fbbd7f64f469994a6aafa0e8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_97.asset using Guid(e41a56fbbd7f64f469994a6aafa0e8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e7f4e446bdbed19cca598edead0f43') in 0.475004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_74.asset
+  artifactKey: Guid(46fd33f9e6325cf4c95d701f3e5bab7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_74.asset using Guid(46fd33f9e6325cf4c95d701f3e5bab7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a868090ff78aa1ebb77908f25ce9160') in 0.241623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_27.asset
+  artifactKey: Guid(bc6973714c641ea4c9c87925decebb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_27.asset using Guid(bc6973714c641ea4c9c87925decebb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16761f68f404c638e3163d0715951b00') in 0.028518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_91.asset
+  artifactKey: Guid(8fcc62634a880294bae3e56142a16d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_91.asset using Guid(8fcc62634a880294bae3e56142a16d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e00ab0bb8e962ede8648300ebf3945') in 0.043064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_105.asset
+  artifactKey: Guid(550f783e2dd1db4458536a30edf69b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_105.asset using Guid(550f783e2dd1db4458536a30edf69b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b5fe9e6c238b79332000dbaf7e9627') in 0.096540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.114764 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_239.asset
+  artifactKey: Guid(cc371b88315db3f449e32f97ebbd65e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_239.asset using Guid(cc371b88315db3f449e32f97ebbd65e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a982c03ee1b0f923d7fdfb60b625c2cb') in 0.155828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_109.asset
+  artifactKey: Guid(1d3b8f89374d3cf41bb558c94100eb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_109.asset using Guid(1d3b8f89374d3cf41bb558c94100eb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00123eb655781eb847939caa6468a28') in 0.093735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_60.asset
+  artifactKey: Guid(9880c3cd46b9fac4790b2a6b3a416d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_60.asset using Guid(9880c3cd46b9fac4790b2a6b3a416d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599b6802d6fc84fe8b81ba37a5b3e842') in 0.437788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_67.asset
+  artifactKey: Guid(3d95790556bf5424eabb1d9227e1fcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_67.asset using Guid(3d95790556bf5424eabb1d9227e1fcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efa90e7ceaecedb75e8c7ad7feb0283') in 0.072978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_61.asset
+  artifactKey: Guid(278c9026afca6c94aac6b4d80e3acff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_61.asset using Guid(278c9026afca6c94aac6b4d80e3acff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe86a87c487b958c0a1eaf7d574a2b28') in 0.145638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_169.asset
+  artifactKey: Guid(0f72de81789a138488995a840e44dd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_169.asset using Guid(0f72de81789a138488995a840e44dd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f533a25342a3d9a874eaec7592ee0a') in 0.202004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_156.asset
+  artifactKey: Guid(5b4f224639150084a9e520745e8a96d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_156.asset using Guid(5b4f224639150084a9e520745e8a96d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459227b61e269bcc95a589c4c107015c') in 0.067794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_146.asset
+  artifactKey: Guid(ffea2f30143b26f4e9dd1102803c90e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_146.asset using Guid(ffea2f30143b26f4e9dd1102803c90e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd54fc7edd7da7f43823175f058c261') in 1.218449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_140.asset
+  artifactKey: Guid(861a4a82bf73ff44b8f3e34b2a92b508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_140.asset using Guid(861a4a82bf73ff44b8f3e34b2a92b508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0df4d05ebf0706262f69a968153ed5f') in 0.143190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_142.asset
+  artifactKey: Guid(d60a1de775c96114ea52f895cad629c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_142.asset using Guid(d60a1de775c96114ea52f895cad629c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19524462a1e1d6295d41dc4c1babaf53') in 0.073113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_208.asset
+  artifactKey: Guid(dc308f9293fe5b74db77d41fced796c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_208.asset using Guid(dc308f9293fe5b74db77d41fced796c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72aadcaa35b65c70a5f78ffcff68994b') in 0.103841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_80.asset
+  artifactKey: Guid(81f19532d19553b4a8eb2c67b6efbc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_80.asset using Guid(81f19532d19553b4a8eb2c67b6efbc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc2b03364c474871fb5fde9829193e9') in 0.071809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_192.asset
+  artifactKey: Guid(5abba05d39cc69443829ee2438fa2b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_192.asset using Guid(5abba05d39cc69443829ee2438fa2b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e47404b560c85c906c1b832751f0d3') in 0.044039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_107.asset
+  artifactKey: Guid(3ee85c3993516974a91b0e162f098e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_107.asset using Guid(3ee85c3993516974a91b0e162f098e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d868d801643c81a70b762ba259ddbac') in 0.053283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113326 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_157.asset
+  artifactKey: Guid(e168ff9a768360b45836544e6ea53aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_157.asset using Guid(e168ff9a768360b45836544e6ea53aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ea0c6219c7d66ef8377f5104c1646d') in 0.059990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_263.asset
+  artifactKey: Guid(9f19ddeb32cfdf241a06240f1e597410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_263.asset using Guid(9f19ddeb32cfdf241a06240f1e597410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968b8ecc05091e7b3911b46bb2c42532') in 3.163506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002021 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_64.asset
+  artifactKey: Guid(203a87ed332ac2747930c6a25ddf5c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_64.asset using Guid(203a87ed332ac2747930c6a25ddf5c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd43eed1c0c266643a67df1ccb2444a7') in 0.153333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018746 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_158.asset
+  artifactKey: Guid(cca488022437de94083a127416e29f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_158.asset using Guid(cca488022437de94083a127416e29f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd026f3179fa0f691e442b4556f689ea') in 0.813917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.296992 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_52.asset
+  artifactKey: Guid(192adbf44bd47d8489fdc30922de4c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_52.asset using Guid(192adbf44bd47d8489fdc30922de4c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2735770669fe4a0b7334419716b6f60') in 0.111793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_86.asset
+  artifactKey: Guid(86452df5c4de80540801f677cf8eed78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_86.asset using Guid(86452df5c4de80540801f677cf8eed78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16150b474eb87020d40ed46bd685771') in 0.091081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011787 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_84.asset
+  artifactKey: Guid(31b58771ebd0ba04f8f0ee57af1b091e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_84.asset using Guid(31b58771ebd0ba04f8f0ee57af1b091e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb283ff40a16ef94a038e7e9cd782e0') in 0.098657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_241.asset
+  artifactKey: Guid(edd12f7d2ca051d4ab661a7654379d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_241.asset using Guid(edd12f7d2ca051d4ab661a7654379d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e845b5d1da898ba392df853ba72944bd') in 0.132152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_24.asset
+  artifactKey: Guid(33658849aa5884643bbddd8b28ccd1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_24.asset using Guid(33658849aa5884643bbddd8b28ccd1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f76a2aceb2183ac7dbc3d9b39204c50') in 0.158927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.103099 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_163.asset
+  artifactKey: Guid(fc973b807c7fb0c448795ccf4358e730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_163.asset using Guid(fc973b807c7fb0c448795ccf4358e730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9557605880cdb83ab3fc2dae04f73087') in 0.192113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_149.asset
+  artifactKey: Guid(b931d4de815f8b148bacd75203d9febe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_149.asset using Guid(b931d4de815f8b148bacd75203d9febe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13af440f1b0a40dcf6850d46002010af') in 0.064961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000703 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_266.asset
+  artifactKey: Guid(8e617cf32ae07404f999aaa7969e202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_266.asset using Guid(8e617cf32ae07404f999aaa7969e202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b137c7d0643740b964fd90cea3a4d5b') in 0.161212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015938 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_179.asset
+  artifactKey: Guid(e09dcea31d9d2f545958d0585141f641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_179.asset using Guid(e09dcea31d9d2f545958d0585141f641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd82ff7da9c975ebbb0d972abf0dea0e') in 0.249396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.100761 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_168.asset
+  artifactKey: Guid(6fa04624585434941972eb8e89fd0644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_168.asset using Guid(6fa04624585434941972eb8e89fd0644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd6864dfbde43344ae9e0c0ae4db00a') in 0.193166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016183 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_88.asset
+  artifactKey: Guid(02bf069b8725b4844976e23f33c197e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_88.asset using Guid(02bf069b8725b4844976e23f33c197e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075c9d050c4fb36ebdbdc551150220be') in 0.084349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.086470 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_96.asset
+  artifactKey: Guid(a42db626692d2834f810d8f95a110921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_96.asset using Guid(a42db626692d2834f810d8f95a110921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f50d95ca6fca2f5abb7338ed0e9429') in 0.201191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056474 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_141.asset
+  artifactKey: Guid(dc540e4543b7d2d44b96998a2277146f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_141.asset using Guid(dc540e4543b7d2d44b96998a2277146f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be2c7252f0ec016ec05c6a8e348ce6e') in 0.049534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.783138 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_31.asset
+  artifactKey: Guid(af20f81c1094c2e4d828c3914a9ba89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_31.asset using Guid(af20f81c1094c2e4d828c3914a9ba89f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec9922e3e314a1a115f9ade77cc2c75') in 0.081624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_33.asset
+  artifactKey: Guid(7bbc3ce328463d84384b9639f478b8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_33.asset using Guid(7bbc3ce328463d84384b9639f478b8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc633dc2cafdb99039913562fd5b6e6b') in 0.025454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_44.asset
+  artifactKey: Guid(418c5449354f0a84fac664365e20f4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_44.asset using Guid(418c5449354f0a84fac664365e20f4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3176a086fdde6079b9e2a829d9ff9378') in 0.210543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_353.asset
+  artifactKey: Guid(b5c7c1c2d1f930840b952a90c81438ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_353.asset using Guid(b5c7c1c2d1f930840b952a90c81438ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3b77e159be25db3f365e2f0b94154e') in 0.209439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_360.asset
+  artifactKey: Guid(da34388244ff7c04bb00fe5436a082eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_360.asset using Guid(da34388244ff7c04bb00fe5436a082eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeef1b15ca271d7144ba182b0b99a9cc') in 0.328356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_363.asset
+  artifactKey: Guid(92fbde8ca1c4feb4791b3bc5b27444bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_363.asset using Guid(92fbde8ca1c4feb4791b3bc5b27444bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a05c31d66d584d1dfced3d5b3c5c41') in 0.307550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_386.asset
+  artifactKey: Guid(8be36117adac91743815b01340b148cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_386.asset using Guid(8be36117adac91743815b01340b148cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e978c05ae322f8e85fb1fa086570f2') in 0.153190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_382.asset
+  artifactKey: Guid(a7c0ea7315b1b1942ac42525a371274e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_382.asset using Guid(a7c0ea7315b1b1942ac42525a371274e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822bd33db17627b5f93c40d4fa20854d') in 0.133154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_362.asset
+  artifactKey: Guid(1d649488c58f0c242999adbf413d9eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_362.asset using Guid(1d649488c58f0c242999adbf413d9eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7864577373d92501a509a256ec10d763') in 0.182558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002439 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_366.asset
+  artifactKey: Guid(b65def741aa129243b910bab005eb7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_366.asset using Guid(b65def741aa129243b910bab005eb7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c375eec11ebb8a313f065d9bffe3d2') in 0.559027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_370.asset
+  artifactKey: Guid(b944f5a76dbecd140815fcfee746da2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_370.asset using Guid(b944f5a76dbecd140815fcfee746da2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca8da9884a65d1aea9a68bde35eaca0') in 0.717291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_345.asset
+  artifactKey: Guid(a4455a212670b0c4ab71201fb059eab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_345.asset using Guid(a4455a212670b0c4ab71201fb059eab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf419895881dfb24701c7719497cb4a') in 0.801453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_343.asset
+  artifactKey: Guid(fc696e9a7b9d0d5439a2986356cae982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_343.asset using Guid(fc696e9a7b9d0d5439a2986356cae982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5312d81905905f11d9b511388f04245e') in 0.118210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_338.asset
+  artifactKey: Guid(bb436c35b186da44baf20f13c3fee24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_338.asset using Guid(bb436c35b186da44baf20f13c3fee24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b434c3bb51bd70c9e6cc3288022e7190') in 0.199443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_387.asset
+  artifactKey: Guid(f587582436dff6b43a3ae3eba7111698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_387.asset using Guid(f587582436dff6b43a3ae3eba7111698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea856734787ad74d1e41d1f8d0229698') in 0.238467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_376.asset
+  artifactKey: Guid(b48e6ab9a1a088543888925c3afb68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_376.asset using Guid(b48e6ab9a1a088543888925c3afb68d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ad5426421348f5dfc74f146d16943f') in 0.147504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_349.asset
+  artifactKey: Guid(98f7588753438f74d89f4dc0660c902c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_349.asset using Guid(98f7588753438f74d89f4dc0660c902c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34285b24e046836ee2e9385fc21b2450') in 0.474937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_342.asset
+  artifactKey: Guid(70d73836ecaccac4a923ce2cfc276046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_342.asset using Guid(70d73836ecaccac4a923ce2cfc276046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a424d3553a0cfa8ff711d530cc61413') in 0.064698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_340.asset
+  artifactKey: Guid(faee6c410a39c2145819c97873e09755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_340.asset using Guid(faee6c410a39c2145819c97873e09755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccc921475f825878199cb07fe51b487') in 0.157044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_47.asset
+  artifactKey: Guid(151373cb2e2313044b8876d4553b32f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_47.asset using Guid(151373cb2e2313044b8876d4553b32f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1bea8bc22a7f4c31513750bfe4d7bc') in 0.215791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_356.asset
+  artifactKey: Guid(d0a46b96c71c5bf4ca33b91f02eff0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_356.asset using Guid(d0a46b96c71c5bf4ca33b91f02eff0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb02a0a332aca6a6c71375b7a49b292') in 0.297151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_347.asset
+  artifactKey: Guid(23c87a69728aff549b4777a6fb6c715e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_347.asset using Guid(23c87a69728aff549b4777a6fb6c715e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a6bffefe3ac70048003bb778ef5649') in 0.126684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_367.asset
+  artifactKey: Guid(7a83ef2d288d3a645941c926ab07cc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_367.asset using Guid(7a83ef2d288d3a645941c926ab07cc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5073129ae9e0114dbe44f90ce0b8501e') in 0.150839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002915 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_355.asset
+  artifactKey: Guid(cf0d5344d945db84094d18f87c853f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_355.asset using Guid(cf0d5344d945db84094d18f87c853f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458e58277215570cdb6cf99d40261472') in 0.075789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_365.asset
+  artifactKey: Guid(c5d33aed9c97b1b4caee60fb0c8b323e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_365.asset using Guid(c5d33aed9c97b1b4caee60fb0c8b323e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5202a16d640bbb12ce78e510c5cbf78b') in 0.050525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_375.asset
+  artifactKey: Guid(329fb8e3b10550b4db9c728ad5805b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_375.asset using Guid(329fb8e3b10550b4db9c728ad5805b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71a70723f63737eda54a1977ec1f227') in 0.062882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_42.asset
+  artifactKey: Guid(f8378f45727bd594cb5db8643a36ed85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_42.asset using Guid(f8378f45727bd594cb5db8643a36ed85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e0ca04133df559b9f4b858b98099c4') in 0.099852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_374.asset
+  artifactKey: Guid(d30a680a6debe304e868abd4db1f77a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_374.asset using Guid(d30a680a6debe304e868abd4db1f77a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f94c77ea418cfcbb1ba895967b6c900') in 0.108933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_339.asset
+  artifactKey: Guid(7863eea13c1a10549a1a6a7f9150a1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_339.asset using Guid(7863eea13c1a10549a1a6a7f9150a1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70619b1319bd00d806b880708226edb6') in 0.183395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_368.asset
+  artifactKey: Guid(72ce9bd3eb4d063478022887fe3bc4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_368.asset using Guid(72ce9bd3eb4d063478022887fe3bc4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a02a9740eda428b60d0a5bd56036568') in 0.372629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_371.asset
+  artifactKey: Guid(df915925b57ca7a40a647fe5b45b0a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_371.asset using Guid(df915925b57ca7a40a647fe5b45b0a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722b095d2493449e6a8bcacb9711a92d') in 0.145404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_38.asset
+  artifactKey: Guid(210ba4fa07ca0f345ba42bd099a96895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_38.asset using Guid(210ba4fa07ca0f345ba42bd099a96895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1941d277618bc46e985e051890aae5') in 0.142593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_344.asset
+  artifactKey: Guid(bd81a25715fdac445bac44bc604c86e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_344.asset using Guid(bd81a25715fdac445bac44bc604c86e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f108a3c38057659984c679c6934091') in 0.176837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_359.asset
+  artifactKey: Guid(95f5f902ebc832442a78684180bd8fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_359.asset using Guid(95f5f902ebc832442a78684180bd8fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862933e1f3c10aa22ef5ef542c271113') in 0.163631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 308.672259 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_111.asset
+  artifactKey: Guid(993d97ffdd8a3bd498f1839c8e289908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_111.asset using Guid(993d97ffdd8a3bd498f1839c8e289908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f68b8459d35c06f230e1792148d455') in 0.100273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_297.asset
+  artifactKey: Guid(8eb6c4cc81b68744ca3cc4331001a897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_297.asset using Guid(8eb6c4cc81b68744ca3cc4331001a897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1c951a4639c41570f73dee2c529d85') in 0.089328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_307.asset
+  artifactKey: Guid(34d23fe06b2e1a645ab5b40ba0e4354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_307.asset using Guid(34d23fe06b2e1a645ab5b40ba0e4354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea905879b604ee4d3abb2c14bca81a2') in 0.126912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_112.asset
+  artifactKey: Guid(61d6c9726296e6a4dbeb5ba69abe1366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_112.asset using Guid(61d6c9726296e6a4dbeb5ba69abe1366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3130e191af783e6a92a7628e31cdb7') in 0.122185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_319.asset
+  artifactKey: Guid(7fd608664f3937d40b464c04afc35642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_319.asset using Guid(7fd608664f3937d40b464c04afc35642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2edbfe9774f0c891a6a0c781c21aede') in 0.090362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_310.asset
+  artifactKey: Guid(d9c0d1d0b823d104aac30d37a0bcdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_310.asset using Guid(d9c0d1d0b823d104aac30d37a0bcdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab197636124f2d12b207ebc0ea7e9bd') in 0.054514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_298.asset
+  artifactKey: Guid(820580bf7be073745974d109ebedb28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_298.asset using Guid(820580bf7be073745974d109ebedb28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b051e2527e0135889ab8487dbd77e429') in 0.186092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_306.asset
+  artifactKey: Guid(0e9cacfec45dcd6469df613b22c8dcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_306.asset using Guid(0e9cacfec45dcd6469df613b22c8dcee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef5c90969db57242ef45469a28e8402') in 0.191091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_300.asset
+  artifactKey: Guid(ae542c608b7d5dd4f9d2cd6f666adfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_300.asset using Guid(ae542c608b7d5dd4f9d2cd6f666adfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25185177ef26c4d349085ac937439f8') in 0.130332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_113.asset
+  artifactKey: Guid(fdf0cfc0c15b51b4c9c178eff53e3df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_113.asset using Guid(fdf0cfc0c15b51b4c9c178eff53e3df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c1dabed33d96fb40d9ae71389013b4') in 0.100034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_570.asset
+  artifactKey: Guid(754b9dd9ca1225c47aa6fe3c21ca5042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_570.asset using Guid(754b9dd9ca1225c47aa6fe3c21ca5042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c692e705b10af7611802b238043f6e39') in 0.136813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_578.asset
+  artifactKey: Guid(966bce03107230445b1a47935832f76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_578.asset using Guid(966bce03107230445b1a47935832f76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf3b824717ee2999bd964c2dccc610e') in 0.062090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_585.asset
+  artifactKey: Guid(68a2411c26af37b499b0f7caf5519cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_585.asset using Guid(68a2411c26af37b499b0f7caf5519cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e229113860ade39583a4814630628f67') in 0.067227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_579.asset
+  artifactKey: Guid(3eaf14ff95630e84993d6410a498939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_579.asset using Guid(3eaf14ff95630e84993d6410a498939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5279a02b6f3d7a8bb27bb6b9cbe417') in 0.032258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_580.asset
+  artifactKey: Guid(f3f023a9329bfd74ab12e03849b52269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_580.asset using Guid(f3f023a9329bfd74ab12e03849b52269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84214064a8735a08f310972c65398210') in 0.027870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_576.asset
+  artifactKey: Guid(fad40089ecb518842b39fdbfa3ca4384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_576.asset using Guid(fad40089ecb518842b39fdbfa3ca4384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd5f74e2fceecf94dacafe44b175658') in 0.038111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_584.asset
+  artifactKey: Guid(6e8396e3ba9a3f64eab15c672ee0ea97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_584.asset using Guid(6e8396e3ba9a3f64eab15c672ee0ea97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99ffe9f7c8bb733b44c2af603a5f539') in 0.069060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_571.asset
+  artifactKey: Guid(7aa0303be5184364dab4b91d564cdcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_571.asset using Guid(7aa0303be5184364dab4b91d564cdcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f775f6513204e5e9ebb246188bcfaa80') in 0.046808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_587.asset
+  artifactKey: Guid(b242d6e1de553ae47b823d63cb592f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_587.asset using Guid(b242d6e1de553ae47b823d63cb592f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dac39ac6701c6e03d2dcfee260d262b') in 0.046197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_315.asset
+  artifactKey: Guid(dcbe11a511410e34987569df358caffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_315.asset using Guid(dcbe11a511410e34987569df358caffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ee4a99068113837f4e2c0de5293492') in 0.043429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_314.asset
+  artifactKey: Guid(29da7397f4b255441937e5666fdc639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_314.asset using Guid(29da7397f4b255441937e5666fdc639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7959f68b1542706faf0e851f142eb9') in 0.082777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_125.asset
+  artifactKey: Guid(8664a76b2ac7dd6469310a030245fce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_125.asset using Guid(8664a76b2ac7dd6469310a030245fce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210d31341d1dd63d976310360f29fa1d') in 0.058770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_789.asset
+  artifactKey: Guid(9185af6a58b7bf94ab505831d6a8f1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_789.asset using Guid(9185af6a58b7bf94ab505831d6a8f1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609f2d04d682d43655feca6cb867662f') in 0.069932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002783 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_303.asset
+  artifactKey: Guid(3c85fb1b0149a794eabcfa8088cb5392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_303.asset using Guid(3c85fb1b0149a794eabcfa8088cb5392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b2b8c715e619cb8c8d4869780696af') in 0.132311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_589.asset
+  artifactKey: Guid(7621451f0fcb2dd468a3493f36f37fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_589.asset using Guid(7621451f0fcb2dd468a3493f36f37fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9189c5228d6ddd396401f1b0d8e7dcf') in 0.078521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_122.asset
+  artifactKey: Guid(db60ed65e37e2cf4799bca9028e1abcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_122.asset using Guid(db60ed65e37e2cf4799bca9028e1abcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c86cd1cedec17f6e23b1b41574095d') in 0.064567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_794.asset
+  artifactKey: Guid(6aafce18443b97d408faf5015d1592a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_794.asset using Guid(6aafce18443b97d408faf5015d1592a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a94f22ff819ba643a4055f63f812f06') in 0.058155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_128.asset
+  artifactKey: Guid(470b177c92d245f40bd721cdc875cb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_128.asset using Guid(470b177c92d245f40bd721cdc875cb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca661b8442d8155b5aad1af79168914') in 0.061292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_785.asset
+  artifactKey: Guid(fbb16a2196666ae4cb0932d9bce8513f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_785.asset using Guid(fbb16a2196666ae4cb0932d9bce8513f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8125415586e34cc25df2c61cb56bf66c') in 0.080460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_312.asset
+  artifactKey: Guid(ff15de613f1341d46b12728b555028b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_312.asset using Guid(ff15de613f1341d46b12728b555028b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7462a1ab574bf60750666da91c0ebf9f') in 0.154778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_575.asset
+  artifactKey: Guid(eccb6ae076b71e74fb0898283e5163ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_575.asset using Guid(eccb6ae076b71e74fb0898283e5163ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bca0a6cfd1498d7898a2437d9a60eb') in 0.102657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_783.asset
+  artifactKey: Guid(ef95180f844349340869d00dbbddb265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_783.asset using Guid(ef95180f844349340869d00dbbddb265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2872a98cdd7300395d24944d3afd15') in 0.045968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001117 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_791.asset
+  artifactKey: Guid(a0da592bd1ef07f47aa4a7379a4ffe59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_791.asset using Guid(a0da592bd1ef07f47aa4a7379a4ffe59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525a0db3384e98cad149aac3b0b08553') in 0.063491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_127.asset
+  artifactKey: Guid(fe35eee15cd593b488d6f85d2e623d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_127.asset using Guid(fe35eee15cd593b488d6f85d2e623d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4441daada58a36155e2c7893acac29a5') in 0.048353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_573.asset
+  artifactKey: Guid(1fd7d36e0dac091489eaaf1b8b4a964a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_573.asset using Guid(1fd7d36e0dac091489eaaf1b8b4a964a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca84c0ea63fd7fac51886d6657055bcc') in 0.059262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002149 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_563.asset
+  artifactKey: Guid(f95edd46b2442794091fb21b5f1e923f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_563.asset using Guid(f95edd46b2442794091fb21b5f1e923f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733a628961398ed1323049aa82c8b57e') in 0.060776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_313.asset
+  artifactKey: Guid(8acb0d0d85ccf8746973efe4ae781516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_313.asset using Guid(8acb0d0d85ccf8746973efe4ae781516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8873452ff81defde1de092c0fb87453b') in 0.102168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_304.asset
+  artifactKey: Guid(a9553e3eefbdf13469ed3a77b0bd84f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_304.asset using Guid(a9553e3eefbdf13469ed3a77b0bd84f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af96ff0368be8cc7a452b14baae36e3') in 0.057620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_566.asset
+  artifactKey: Guid(d8eb9dfbe67299f408b55ac64dba8cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_566.asset using Guid(d8eb9dfbe67299f408b55ac64dba8cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68924efb18db574e4dc3886f45359839') in 0.050013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_564.asset
+  artifactKey: Guid(44df7888e0d523b46bf67b027434e881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_564.asset using Guid(44df7888e0d523b46bf67b027434e881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4183493cd5b7b1a9029509ee092d0b') in 0.100307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_787.asset
+  artifactKey: Guid(86e95a35bafe9a348ac61323c6720480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_787.asset using Guid(86e95a35bafe9a348ac61323c6720480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120ab162ff2f1c54f855825769afd318') in 0.085696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_316.asset
+  artifactKey: Guid(b5337ff2dea12a1459ddca0f0e9f75f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_316.asset using Guid(b5337ff2dea12a1459ddca0f0e9f75f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebca27598f8018c0a87f4a72fada8f0b') in 0.048355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_788.asset
+  artifactKey: Guid(e607b0c01c1636b4d89722045e4c7974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_788.asset using Guid(e607b0c01c1636b4d89722045e4c7974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7510f1da7c58212bdbdfe0debc3b3d') in 0.068889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_294.asset
+  artifactKey: Guid(b48af51dae4947b4ca7c63e5c8d04a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_294.asset using Guid(b48af51dae4947b4ca7c63e5c8d04a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a2da52356f6c5005956c02f139de22') in 0.048974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_592.asset
+  artifactKey: Guid(1288d97a7562d6c49af11537d5adb1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PNG/SET1_Mainlev_build_592.asset using Guid(1288d97a7562d6c49af11537d5adb1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90637e440ba64554264c147068fe3817') in 0.108567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.931029 seconds.
+  path: Assets/DownloadedAssets/FPSET1_v1.0/_PSD/SET1_decorative_obj.psd
+  artifactKey: Guid(9a239163cdec0ea4d89b4b140dbae310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DownloadedAssets/FPSET1_v1.0/_PSD/SET1_decorative_obj.psd using Guid(9a239163cdec0ea4d89b4b140dbae310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a4bd1f5c7f4c6c4c9cb19109d0b847') in 3.060434 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013653 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\alecl\Documents\GitHub\Week2AdvancingWallOfDoom\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\alecl\Documents\GitHub\Week2AdvancingWallOfDoom\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 18.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (18010ms)
+		BeginReloadAssembly (7084ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (891ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2313ms)
+		EndReloadAssembly (10294ms)
+			LoadAssemblies (1069ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (8046ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (166ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (311ms)
+				ProcessInitializeOnLoadAttributes (819ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5233 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5840.
+Memory consumption went from 210.4 MB to 209.7 MB.
+Total: 118.682800 ms (FindLiveObjects: 0.594500 ms CreateObjectMapping: 0.674700 ms MarkObjects: 116.555800 ms  DeleteObjects: 0.854900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016743 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\alecl\Documents\GitHub\Week2AdvancingWallOfDoom\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\alecl\Documents\GitHub\Week2AdvancingWallOfDoom\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3943ms)
+		BeginReloadAssembly (881ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (505ms)
+		EndReloadAssembly (2754ms)
+			LoadAssemblies (259ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (800ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (134ms)
+			SetupLoadedEditorAssemblies (1200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (812ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (141ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5232 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5842.
+Memory consumption went from 210.4 MB to 209.7 MB.
+Total: 39.657100 ms (FindLiveObjects: 0.991700 ms CreateObjectMapping: 1.036900 ms MarkObjects: 37.229100 ms  DeleteObjects: 0.395900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
