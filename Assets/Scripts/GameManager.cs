@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     public PlayerMovement playerScript;
     public TrapCollision playerCollision;
+    public PlayerHealth player;
 
 
     // Start is called before the first frame update
@@ -28,6 +29,11 @@ public class GameManager : MonoBehaviour
         else if (playerCollision.isWin)
         {
             SceneManager.LoadScene("Win");
+        }
+
+        if (player.isDead)
+        {
+            SceneManager.LoadScene("GameOver");
         }
     }
 }

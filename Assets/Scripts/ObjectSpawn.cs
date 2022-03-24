@@ -4,18 +4,15 @@ using UnityEngine;
 
 public class ObjectSpawn : MonoBehaviour
 {
-   
+
     public int numberToSpawn;
     public List<GameObject> spawnPool;
     public GameObject quad1;
     public GameObject quad2;
     public GameObject quad3;
+    public GameObject quad4;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        spawnObjects();
-    }
+
 
     private void Update()
     {
@@ -25,18 +22,24 @@ public class ObjectSpawn : MonoBehaviour
         //---- TO FIX ----
         //the arrows are supposed to follow the player. Couldn't find a working way to move them.
 
+        //when the player moves on a trigger = shoot
+
+        //when the players moves on another trigger = shoot
+
+
+
 
     }
 
-    public void spawnObjects()
+    public void SpawnObjects1()
     {
         int randomItem = 0;
         GameObject toSpawn;
         MeshCollider c1 = quad1.GetComponent<MeshCollider>();
 
-        MeshCollider c2 = quad2.GetComponent<MeshCollider>();
+        //MeshCollider c2 = quad2.GetComponent<MeshCollider>();
 
-        MeshCollider c3 = quad3.GetComponent<MeshCollider>();
+        //MeshCollider c3 = quad3.GetComponent<MeshCollider>();
 
         float screenX, screenY;
         Vector2 pos;
@@ -55,6 +58,21 @@ public class ObjectSpawn : MonoBehaviour
 
         }
 
+    }
+
+    public void SpawnObjects2()
+    {
+        int randomItem = 0;
+        GameObject toSpawn;
+        //MeshCollider c1 = quad1.GetComponent<MeshCollider>();
+
+        MeshCollider c2 = quad2.GetComponent<MeshCollider>();
+
+        //MeshCollider c3 = quad3.GetComponent<MeshCollider>();
+
+        float screenX, screenY;
+        Vector2 pos;
+
         for (int index = 0; index < numberToSpawn; index++)
         {
             randomItem = Random.Range(0, spawnPool.Count);
@@ -69,6 +87,22 @@ public class ObjectSpawn : MonoBehaviour
 
 
         }
+
+    }
+
+    public void SpawnObjects3()
+    {
+
+        int randomItem = 0;
+        GameObject toSpawn;
+        //MeshCollider c1 = quad1.GetComponent<MeshCollider>();
+
+        //MeshCollider c2 = quad2.GetComponent<MeshCollider>();
+
+        MeshCollider c3 = quad3.GetComponent<MeshCollider>();
+
+        float screenX, screenY;
+        Vector2 pos;
 
         for (int index = 0; index < numberToSpawn; index++)
         {
@@ -86,11 +120,40 @@ public class ObjectSpawn : MonoBehaviour
         }
 
 
-
     }
 
 
-    
+    public void SpawnObjects4()
+    {
+
+        int randomItem = 0;
+        GameObject toSpawn;
+        //MeshCollider c1 = quad1.GetComponent<MeshCollider>();
+
+        //MeshCollider c2 = quad2.GetComponent<MeshCollider>();
+
+        MeshCollider c4 = quad4.GetComponent<MeshCollider>();
+
+        float screenX, screenY;
+        Vector2 pos;
+
+        for (int index = 0; index < numberToSpawn; index++)
+        {
+            randomItem = Random.Range(0, spawnPool.Count);
+            toSpawn = spawnPool[randomItem];
+
+            screenX = Random.Range(c4.bounds.min.x, c4.bounds.max.x);
+            screenY = Random.Range(c4.bounds.min.y, c4.bounds.max.y);
+
+            pos = new Vector2(screenX, screenY);
+
+            Instantiate(toSpawn, pos, toSpawn.transform.rotation);
+
+
+        }
+
+    }
+
 
 
 }

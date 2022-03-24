@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded = false;
     bool facingRight = true;
 
- 
+    public ObjectSpawn spawn;
 
     public Animator animator;
 
@@ -69,6 +69,8 @@ public class PlayerMovement : MonoBehaviour
             isGrounded = true;
             animator.SetBool("isGrounded", true);
         }
+
+       
     }
 
     private void OnCollisionExit2D(Collision2D collision)
@@ -79,4 +81,33 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isGrounded", false);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Spawn1")
+        {
+            spawn.SpawnObjects1();
+            spawn.quad1.SetActive(false);
+        }
+        else if (collision.tag == "Spawn2")
+        {
+            spawn.SpawnObjects2();
+            spawn.quad2.SetActive(false);
+        }
+        else if (collision.tag == "Spawn3")
+        {
+            spawn.SpawnObjects3();
+            spawn.quad3.SetActive(false);
+        }
+        else if (collision.tag == "Spawn4")
+        {
+            spawn.SpawnObjects4();
+            spawn.quad4.SetActive(false);
+        }
+    }
+    
 }
+
+  
+
+

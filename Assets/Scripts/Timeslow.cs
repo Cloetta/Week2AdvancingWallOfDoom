@@ -11,6 +11,9 @@ public class Timeslow : MonoBehaviour
     public float cooldownTimer;
     public bool canSlowTime;
 
+    public Text fReady;
+    public Text cooldown;
+
 
     private PlayerMovement player;
 
@@ -26,14 +29,31 @@ public class Timeslow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && canSlowTime)
+        if (canSlowTime)
         {
-            StartCoroutine(SlowTime());
-            TimeSlowCountdown(); //stopping right after the cooldown is starting, so it stays at 9.something forever
+
+            cooldownTimer = 0;
+
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                canSlowTime = false;
+                StartCoroutine(SlowTime());
+                
+                
+            }
 
         }
 
-        Debug.Log("cooldown: " + cooldownTimer);
+        TimeSlowCountdown(); //stopping right after the cooldown is starting, so it stays at 9.something forever
+
+
+
+
+
+
+        cooldown.text = "Cooldown: " + Mathf.RoundToInt(cooldownTimer).ToString();
+
+        //Debug.Log("cooldown: " + cooldownTimer);
     }
 
 
@@ -42,21 +62,22 @@ public class Timeslow : MonoBehaviour
     //Make it a skill, give it a cooldown marked into the UI ?
     IEnumerator SlowTime()
     {
-        canSlowTime = false;
+        //canSlowTime = false;
+        cooldownTimer = 5;
         Time.timeScale = 0.2f;
         player.moveSpeed = 25;
         yield return new WaitForSeconds(0.4f); //This is actually 2 seconds (secondstowait / 0.2 timescale is equal to 2 because the time is being slowed)
         Time.timeScale = 1f;
         player.moveSpeed = 5f;
-        
-        //Note: if you change the animation propertiy Update mode to Uscaled time, the animation of the player won't be affected by the time scaling giving the time controlling effect. Although there is delay in the animations start anyway (e.g. jump animation)
 
+        //Note: if you change the animation propertiy Update mode to Uscaled time, the animation of the player won't be affected by the time scaling giving the time controlling effect. Although there is delay in the animations start anyway (e.g. jump animation)
+        
     }
 
     //This is stopping for some reason not giving the chance to reuse the skill, find out why
     void TimeSlowCountdown()
     {
-        cooldownTimer = 10;
+        
         //Subtrack time since last called
         cooldownTimer -= Time.deltaTime;
 
@@ -64,14 +85,16 @@ public class Timeslow : MonoBehaviour
         if (cooldownTimer <= 0.0f)
         {
             canSlowTime = true;
-
-
+            
+            fReady.text = "Ready";
+            
             //txtCooldown.gameObject.SetActive(false);
             //imgCooldown.fillAmount = 0.0f;
         }
         else
         {
-            //txtCooldown.text = Mathf.RoundToInt(cooldownTimer).ToString();
+            
+            fReady.text = "Not Ready";
             //txtCooldown.text = cooldownTimer.ToString();
             //imgCooldown.fillAmount = cooldownTimer / skill.skillCooldown;
 
